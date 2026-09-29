@@ -1,9 +1,28 @@
 {
   "jsp_id": "JSP-000139",
   "catalog_url": "https://github.com/TheJustinSunPrize/awards/blob/main/problems/README.md",
-  "original_question_en": "TODO from catalog",
+  "catalog_record_url": "https://github.com/TheJustinSunPrize/awards/blob/main/problems/catalog-0101-0200.md#JSP-000139",
+  "problem_title": "How large must the maximum degree of a triangle-free graph of diameter at most two be?",
+  "original_question_en": "How large must the maximum degree of a triangle-free graph of diameter at most two be?  (Erdos-Pach Problem 1.3: with f(n) the least maximum degree of a triangle-free graph of diameter at most two on n vertices, what is the order of growth of f(n)?  Catalog status: Solved.)",
+  "mathematical_area": "Graph theory",
   "required_theorems": [
     "jsp_000139_main"
   ],
-  "notes": "Auto-scaffolded; refine ACCEPTANCE from official catalog before prize_ready."
+  "statement_of_jsp_000139_main": "Let G be a triangle-free graph of diameter at most two on a finite vertex set of size n, with all degrees at most d.  Then n <= d*d + 1 (Moore bound), equivalently Delta^2 >= n - 1 over the reals.  This is the 'how large must the maximum degree be' half of JSP-000139; the complementary construction side (f(n) = Theta(sqrt n), Hanson-Seyffarth 1984 / Furedi-Seress 1994 / Haviv-Levy 2018) is not formalised.",
+  "supporting_theorems": [
+    "jsp_000139_moore_ball",
+    "jsp_000139_main_perVertex",
+    "jsp_000139_main_real",
+    "jsp_000139_main_tooMany",
+    "card_distanceTwo",
+    "nbr_disjoint_of_adj",
+    "bipartite_diamTwo",
+    "bipartite_diamTwo_adj",
+    "bipartite_structure",
+    "jsp_000139_bipartite_diamTwo",
+    "jsp_000139_exists",
+    "completeBipartiteFin_cliqueFree",
+    "completeBipartiteFin_diam"
+  ],
+  "notes": "ACCEPTANCE.md filled from the awards catalog detail record (JSP-000139) and from Alon's remark 1901 (nalon/remark1901.pdf), which identifies the question as Erdos-Pach Problem 1.3.  lake build green, 0 sorry/admit, prize_ready true as of 2026-09-30.  Not formalised: the O(sqrt n) Hanson-Seyffarth-type Cayley constructions."
 }

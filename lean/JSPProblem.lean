@@ -1,1 +1,2 @@
-import JSPProblem.Smoke
+import JSPProblem.Diameter
+import JSPProblem.CompleteBipartite

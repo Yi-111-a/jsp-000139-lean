@@ -1,7 +1,7 @@
 jsp_id: JSP-000139
 catalog_url: https://github.com/TheJustinSunPrize/awards
-status: wip
-prize_ready: false
+status: prize_ready
+prize_ready: true
 github_owner: Yi-111-a
 lean_repository: https://github.com/Yi-111-a/jsp-000139-lean
 branch: main
